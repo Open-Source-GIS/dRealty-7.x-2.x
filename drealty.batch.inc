@@ -658,6 +658,7 @@ function drealty_process_images_batch_finished($success, $results, $operations) 
  * @param array $hooks
  */
 function drealty_disable_modules_hooks($modules, $hooks) {
+  //test
   $orig_modules = $list = module_list();
   foreach ($modules as $module) {
     unset($list[$module]);
